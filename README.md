@@ -1,6 +1,6 @@
 # File Encryptor (UNDER DEVELOPMENT)
 
-File Encryptor makes storing secret files on the GitHub secure. The action can perform both encryption and decryption process making it possible for the developers to encrypt a file while pushing the code and decrypt the on pull.
+File Encryptor makes storing secret files on the GitHub secure. The action can perform both encryption and decryption process making it possible for the developers to encrypt a file while pushing the code and decrypt the same on pull.
 
 ## Required Input Arguments
 

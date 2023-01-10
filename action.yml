@@ -1,5 +1,5 @@
-name: "Hello World"
-description: "Greet someone and record the time"
+name: "File Encryptor"
+description: "Encrypt or Decrypt a file on GitHub Event"
 inputs:
   input-file-path:
     description: "Path of the file that needs to be encrypted"
