@@ -7,7 +7,7 @@ File Encryptor makes storing secret files on the GitHub secure. The action can p
 |Argument     |Values/Type    |Description     |
 |:----|:----|:----|
 |input-file-path   | string | Path of the file relative to your workflow directory. |
-|encrypt-secret     |string(16)     |A 16 character long secret is required. Refer your secret from your repositories secrets on GitHub.    |
+|encrypt-secret     |string(16)     |A 32 character long secret is required. Refer your secret from your repositories secrets on GitHub.    |
 |mode     | "encryption" \|  "decryption" | Determines whether the file will get encrypted or decrypted |
 
 ## How it works
