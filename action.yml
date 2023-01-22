@@ -9,10 +9,31 @@ inputs:
     description: "Path of the file that needs to be encrypted"
     required: true
   encrypt-secret:
-    description: "Secret used for encrypting the file content"
+    description: "32 character Secret used for encrypting the file content"
     required: true
   mode:
     description: "Mode can be either - encryption | decryption"
+    required: true
+  repo-token:
+    description: "Secret repo level/github level token"
+    required: true
+  github-username:
+    description: "Username of one of the collaborator"
+    required: true
+  github-email:
+    description: "Email of one of the collaborator"
+    required: true
+  commit-msg:
+    description: "Custom commit message (Default available)"
+    required: false
+  branch-name:
+    description: "Scope of commit, branch to commit on"
+    required: true
+  repo-owner:
+    description: "Organization's or individual's name. Can be found in the repo URL"
+    required: true
+  repo-name:
+    description: "Repository name without .git suffix. Can be found in the repo URL"
     required: true
 runs:
   using: "node16"

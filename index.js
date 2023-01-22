@@ -3,7 +3,7 @@ const github = require("@actions/github");
 const path = require("path");
 const fs = require("fs");
 const crypto = require("crypto");
-const simpleGit = require("simple-git/promise")();
+const simpleGit = require("simple-git");
 
 const algo = "aes-256-cbc";
 const initVector = Buffer.alloc(16, 0);
